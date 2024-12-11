@@ -1,0 +1,118 @@
+{
+    "hotel": {
+        "name": "Hôtel Luxe",
+        "welcome": {
+            "title": "Bienvenue à l'Hôtel Luxe",
+            "subtitle": "Votre oasis de confort"
+        }
+    },
+    "weather": {
+        "current": -2,
+        "unit": "°C",
+        "forecast": {
+            "min": -4,
+            "max": 3
+        }
+    },
+    "services": {
+        "restaurants": [
+            {
+                "name": "Le Grand Restaurant",
+                "description": "Restaurant gastronomique",
+                "hours": "19:00 - 23:00",
+                "image": "assets/images/restaurants/restaurant1.jpg",
+                "specialties": ["Cuisine française", "Vins fins"]
+            },
+            {
+                "name": "La Brasserie",
+                "description": "Cuisine traditionnelle",
+                "hours": "12:00 - 14:30, 19:00 - 22:30",
+                "image": "assets/images/restaurants/restaurant2.jpg",
+                "specialties": ["Plats régionaux", "Buffet"]
+            }
+        ],
+        "bars": [
+            {
+                "name": "Le Piano Bar",
+                "description": "Bar lounge avec musique live",
+                "hours": "17:00 - 02:00",
+                "image": "assets/images/bars/bar1.jpg",
+                "happyHour": "18:00 - 20:00"
+            },
+            {
+                "name": "Le Rooftop",
+                "description": "Bar panoramique",
+                "hours": "16:00 - 00:00",
+                "image": "assets/images/bars/bar2.jpg",
+                "specialties": ["Cocktails signature", "Tapas"]
+            }
+        ],
+        "spa": [
+            {
+                "name": "Spa Bien-être",
+                "description": "Centre de relaxation",
+                "hours": "09:00 - 20:00",
+                "image": "assets/images/spa/spa1.jpg",
+                "services": ["Massages", "Sauna", "Hammam"]
+            },
+            {
+                "name": "Piscine",
+                "description": "Piscine intérieure chauffée",
+                "hours": "07:00 - 22:00",
+                "image": "assets/images/spa/spa2.jpg",
+                "features": ["Bassin de 25m", "Jacuzzi"]
+            }
+        ],
+        "shops": [
+            {
+                "name": "La Boutique",
+                "description": "Articles de luxe et souvenirs",
+                "hours": "10:00 - 19:00",
+                "image": "assets/images/shops/shop1.jpg",
+                "products": ["Mode", "Accessoires", "Souvenirs"]
+            }
+        ]
+    },
+    "events": [
+        {
+            "name": "Petit-déjeuner",
+            "time": "07:00 - 10:00",
+            "location": "Restaurant Principal",
+            "description": "Buffet continental et américain"
+        },
+        {
+            "name": "Cours de Yoga",
+            "time": "10:00 - 11:30",
+            "location": "Espace Bien-être",
+            "description": "Tous niveaux"
+        },
+        {
+            "name": "Dégustation de Vins",
+            "time": "18:00 - 19:30",
+            "location": "Cave à vins",
+            "description": "Sur réservation"
+        },
+        {
+            "name": "Dîner Thématique",
+            "time": "19:00 - 22:30",
+            "location": "Restaurant Gastronomique",
+            "description": "Soirée Méditerranéenne"
+        }
+    ],
+    "dinner": {
+        "theme": "Soirée Méditerranéenne",
+        "starters": [
+            "Antipasti Méditerranéen",
+            "Soupe de Poissons de Roche"
+        ],
+        "mainCourses": [
+            "Risotto aux Fruits de Mer",
+            "Dorade Grillée aux Herbes"
+        ],
+        "desserts": [
+            "Tiramisu Maison",
+            "Panna Cotta aux Fruits Rouges"
+        ],
+        "chefSpecial": "Bouillabaisse Marseillaise"
+    }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue à l'hôtel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="assets/images/logo.png" alt="Logo Hôtel" class="logo">
+        </div>
+        <div class="header-right">
+            <div class="weather">
+                <span class="temperature">-2°C</span>
+            </div>
+            <div class="datetime">
+                <span class="date">mardi 10/12/2024</span>
+                <span class="time">18:30</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slides-container">
+            <!-- Slide 1: Welcome -->
+            <section class="slide active" id="welcome">
+                <div class="welcome-content">
+                    <h1>Bienvenue à l'hôtel</h1>
+                    <p>Nous vous souhaitons un excelent séjour</p>
+                    <div class="background-overlay"></div>
+                </div>
+            </section>
+
+            <!-- Slide 2: Services -->
+            <section class="slide" id="services">
+                <div class="services-content">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <img src="assets/images/restaurants/restaurant1.jpg" alt="Restaurant">
+                            <div class="service-info">
+                                <h2>Restaurants</h2>
+                                <p class="hours">Horaires: 7h00 - 23h00</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <img src="assets/images/bars/bar1.jpg" alt="Bar">
+                            <div class="service-info">
+                                <h2>Bars</h2>
+                                <p class="hours">Horaires: 11h00 - 02h00</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <img src="assets/images/spa/spa1.jpg" alt="Spa & Piscine">
+                            <div class="service-info">
+                                <h2>Spa & Piscine</h2>
+                                <p class="hours">Horaires: 9h00 - 20h00</p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <img src="assets/images/shops/shop1.jpg" alt="Boutique">
+                            <div class="service-info">
+                                <h2>Boutiques</h2>
+                                <p class="hours">Horaires: 10h00 - 19h00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: Events -->
+            <section class="slide" id="events">
+                <div class="events-content">
+                    <h2>Événements du Jour</h2>
+                    <div class="events-list">
+                        <div class="event">
+                            <time>08:00</time>
+                            <div class="event-details">
+                                <h3>Petit-déjeuner</h3>
+                                <p>Restaurant Principal</p>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <time>10:00</time>
+                            <div class="event-details">
+                                <h3>Cours de Yoga</h3>
+                                <p>Espace Bien-être</p>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <time>19:00</time>
+                            <div class="event-details">
+                                <h3>Dîner Thématique</h3>
+                                <p>Restaurant Gastronomique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Restaurant -->
+            <section class="slide" id="restaurant">
+                <div class="restaurant-content">
+                    <h2>Menu du Jour</h2>
+                    <div class="menu-theme">
+                        <h3>Saveurs Méditerranéennes</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Entrées</h4>
+                            <p>Antipasti Méditerranéen</p>
+                            <p>Soupe de Poissons de Roche</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Plats Principaux</h4>
+                            <p>Risotto aux Fruits de Mer</p>
+                            <p>Dorade Grillée aux Herbes</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Suggestion du Chef</h4>
+                            <p>Bouillabaisse Marseillaise</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="slide-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </main>
+
+    <footer class="info-bar">
+        <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div class="info-content">
+                <span class="info-label">Standard</span>
+                <span class="info-value">0</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-utensils"></i>
+            <div class="info-content">
+                <span class="info-label">Petit-déjeuner</span>
+                <span class="info-value">7h - 10h</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-utensils"></i>
+            <div class="info-content">
+                <span class="info-label">déjeuner</span>
+                <span class="info-value">12h - 14h</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-utensils"></i>
+            <div class="info-content">
+                <span class="info-label">Dinner</span>
+                <span class="info-value">18h - 22h</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-concierge-bell"></i>
+            <div class="info-content">
+                <span class="info-label">Room Service</span>
+                <span class="info-value">24h/24</span>
+            </div>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-wifi"></i>
+            <div class="info-content">
+                <span class="info-label">WiFi</span>
+                <span class="info-value">hotel2024</span>
+            </div>
+        </div>
+        
+    </footer>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js"></script>
+</body>
+</html>
